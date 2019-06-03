@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS GRID</title>
+  </head>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-gap: 1em;
+    }
+    .wrapper > div {
+      background: #eeeeee;
+      padding: 1em;
+    }
+    .wrapper > div:nth-child(odd) {
+      background: #dddddd;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id
+        doloremque aspernatur. Beatae nihil magni possimus. Nihil laudantium
+        veniam facilis tempore ipsa laboriosam commodi. Incidunt magni molestiae
+        nostrum consectetur.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab
+        iusto qui inventore voluptates iure autem, magnam odit esse voluptate
+        sapiente, quidem nemo officiis delectus! Eos, molestias sit? Explicabo,
+        omnis
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab
+        iusto qui inventore voluptates iure autem, magnam odit esse voluptate
+        sapiente, quidem nemo officiis delectus! Eos, molestias sit? Explicabo,
+        omnis
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab
+        iusto qui inventore voluptates iure autem, magnam odit esse voluptate
+        sapiente, quidem nemo officiis delectus! Eos, molestias sit? Explicabo,
+        omnis
+      </div>
+    </div>
+  </body>
+</html>
